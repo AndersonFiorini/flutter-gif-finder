@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   String _search;
   int _offset = 0;
 
-  //API_KEY_GIPHY is the key created at api.giphy.com
+  //API_KEY_GIPHY is the key created at https://developers.giphy.com/
   String API_KEY = API_KEY_GIPHY;
 
   Future<Map> _getGifs() async {
